@@ -1,0 +1,15 @@
+<RCC>
+  <qresource>
+    <file>delete inactive.webp</file>
+    <file>delete list.jpg</file>
+    <file>delete.png</file>
+    <file>disconnect.jpg</file>
+    <file>filternk.jpg</file>
+    <file>netwkproperties.jpg</file>
+    <file>pause.jpg</file>
+    <file>resouces.qrc</file>
+    <file>update.jpg</file>
+    <file>wirelessoff.jpg</file>
+    <file>wireoff.jpg</file>
+  </qresource>
+</RCC>

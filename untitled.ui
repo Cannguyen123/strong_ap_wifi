@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Wifiscaner_strongest</class>
+ <widget class="QMainWindow" name="Wifiscaner_strongest">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>892</width>
+    <height>812</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="left_menu" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>231</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#left_menu {
+    background-color: #ffffff; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>&gt;</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>120</y>
+      <width>631</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget {
+    background-color: #ffffff; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>460</y>
+      <width>631</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget_2{
+
+    background-color: #ffffff; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Filter</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>911</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_2{
+
+    background-color: #ffffff; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QToolButton" name="toolButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#toolButton{
+
+    background-color: blue; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/Admin/Downloads/delete.png</normaloff>../Users/Admin/Downloads/delete.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>294</number>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>0</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#toolButton_2{
+
+    background-color: blue; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/Admin/Downloads/pause.jpg</normaloff>../Users/Admin/Downloads/pause.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>0</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#toolButton_3{
+
+    background-color: blue; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/Admin/Downloads/update.jpg</normaloff>../Users/Admin/Downloads/update.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_4">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>0</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#toolButton_4{
+
+    background-color: blue; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/Admin/Downloads/delete.png</normaloff>../Users/Admin/Downloads/delete.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_5">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>0</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#toolButton_5
+{
+
+    background-color: blue; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/Admin/Downloads/delete.png</normaloff>../Users/Admin/Downloads/delete.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_6">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>0</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#toolButton_6{
+
+    background-color: blue; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/Admin/Downloads/delete list.jpg</normaloff>../Users/Admin/Downloads/delete list.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_7">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>0</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#toolButton_7{
+
+    background-color: blue; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/Admin/Downloads/wirelessoff.jpg</normaloff>../Users/Admin/Downloads/wirelessoff.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>49</y>
+       <width>221</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_3{
+
+    background-color: #ffffff; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#pushButton{
+
+    background-color: #ffffff; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>scanner</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>0</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#pushButton_2{
+
+    background-color: #ffffff; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>0</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#pushButton_3
+{
+
+    background-color: #ffffff; /* Trắng */
+    /* background-color: rgb(255, 255, 255); */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>widget</zorder>
+   <zorder>left_menu</zorder>
+   <zorder>widget_2</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>frame_2</zorder>
+   <zorder>frame_3</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>892</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuOpen_snapshot">
+     <property name="title">
+      <string>Open snapshot</string>
+     </property>
+    </widget>
+    <addaction name="actionRefresh_interfaces"/>
+    <addaction name="separator"/>
+    <addaction name="menuOpen_snapshot"/>
+    <addaction name="separator"/>
+    <addaction name="actionPreference"/>
+    <addaction name="actionLanguage_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit_2"/>
+   </widget>
+   <widget class="QMenu" name="menuNetwork">
+    <property name="title">
+     <string>Network</string>
+    </property>
+    <addaction name="actionDisconnect"/>
+    <addaction name="separator"/>
+    <addaction name="actionPause_network_updating_2"/>
+    <addaction name="actionUpdate_network_list_F5_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionDelete_network_2"/>
+    <addaction name="actionDelete_all_inactive_network_2"/>
+    <addaction name="actionClear_network_list_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionCopy_2"/>
+    <addaction name="actionExport_to_file_2"/>
+    <addaction name="actionReport_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionChange_color_2"/>
+    <addaction name="actionPropeties_2"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionWireless_Off"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionShow_filters"/>
+    <addaction name="separator"/>
+    <addaction name="actionShow_horizontal_grid"/>
+    <addaction name="actionShow_vertical_grid"/>
+    <addaction name="actionShow_striped_grid"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionOnline_help"/>
+    <addaction name="separator"/>
+    <addaction name="actionHomepage"/>
+    <addaction name="actionTechnical_support"/>
+    <addaction name="actionFeedback"/>
+    <addaction name="actionCheck_for_update"/>
+    <addaction name="separator"/>
+    <addaction name="actionGet_lisense"/>
+    <addaction name="actionEnter_lisense_key"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuNetwork"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuView"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionRefresh_interfaces">
+   <property name="text">
+    <string>Refresh interfaces</string>
+   </property>
+  </action>
+  <action name="actionSave_snapshot">
+   <property name="text">
+    <string>Save snapshot</string>
+   </property>
+  </action>
+  <action name="actionOpen_snapshot">
+   <property name="text">
+    <string>Open snapshot</string>
+   </property>
+  </action>
+  <action name="actionPreferences">
+   <property name="text">
+    <string>Preferences</string>
+   </property>
+  </action>
+  <action name="actionLanguage">
+   <property name="text">
+    <string>Language</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionDisconnect">
+   <property name="text">
+    <string>Disconnect</string>
+   </property>
+  </action>
+  <action name="actionPause_network_updating">
+   <property name="text">
+    <string>Pause network updating</string>
+   </property>
+  </action>
+  <action name="actionUpdate_network_list_F5">
+   <property name="text">
+    <string>Update network list               F5</string>
+   </property>
+  </action>
+  <action name="actionDelete_network">
+   <property name="text">
+    <string>Delete network</string>
+   </property>
+  </action>
+  <action name="actionDelete_all_inactive_network">
+   <property name="text">
+    <string>Delete all inactive network</string>
+   </property>
+  </action>
+  <action name="actionClear_network_list">
+   <property name="text">
+    <string>Clear network list</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionExport_to_file">
+   <property name="text">
+    <string>Export to file</string>
+   </property>
+  </action>
+  <action name="actionReport">
+   <property name="text">
+    <string>Report...</string>
+   </property>
+  </action>
+  <action name="actionChange_color">
+   <property name="text">
+    <string>Change color</string>
+   </property>
+  </action>
+  <action name="actionPropeties">
+   <property name="text">
+    <string>Propeties</string>
+   </property>
+  </action>
+  <action name="actionSave_snapshot_2">
+   <property name="text">
+    <string>Save snapshot</string>
+   </property>
+  </action>
+  <action name="actionPreference">
+   <property name="text">
+    <string>Preference</string>
+   </property>
+  </action>
+  <action name="actionLanguage_2">
+   <property name="text">
+    <string>Language</string>
+   </property>
+  </action>
+  <action name="actionExit_2">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionSave_snapshot_3">
+   <property name="text">
+    <string>Save snapshot</string>
+   </property>
+  </action>
+  <action name="actionPause_network_updating_2">
+   <property name="text">
+    <string>Pause network updating</string>
+   </property>
+  </action>
+  <action name="actionUpdate_network_list_F5_2">
+   <property name="text">
+    <string>Update network list               F5</string>
+   </property>
+  </action>
+  <action name="actionDelete_network_2">
+   <property name="text">
+    <string>Delete network</string>
+   </property>
+  </action>
+  <action name="actionDelete_all_inactive_network_2">
+   <property name="text">
+    <string>Delete all inactive network</string>
+   </property>
+  </action>
+  <action name="actionClear_network_list_2">
+   <property name="text">
+    <string>Clear network list</string>
+   </property>
+  </action>
+  <action name="actionCopy_2">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionExport_to_file_2">
+   <property name="text">
+    <string>Export to file</string>
+   </property>
+  </action>
+  <action name="actionReport_2">
+   <property name="text">
+    <string>Report...</string>
+   </property>
+  </action>
+  <action name="actionChange_color_2">
+   <property name="text">
+    <string>Change color</string>
+   </property>
+  </action>
+  <action name="actionPropeties_2">
+   <property name="text">
+    <string>Propeties</string>
+   </property>
+  </action>
+  <action name="actionWireless_Off">
+   <property name="text">
+    <string>Wireless Off</string>
+   </property>
+  </action>
+  <action name="actionShow_filters">
+   <property name="text">
+    <string>Show filters</string>
+   </property>
+  </action>
+  <action name="actionShow_horizontal_grid">
+   <property name="text">
+    <string>Show horizontal grid</string>
+   </property>
+  </action>
+  <action name="actionShow_vertical_grid">
+   <property name="text">
+    <string>Show vertical grid</string>
+   </property>
+  </action>
+  <action name="actionShow_striped_grid">
+   <property name="text">
+    <string>Show striped grid</string>
+   </property>
+  </action>
+  <action name="actionOnline_help">
+   <property name="text">
+    <string>Online help</string>
+   </property>
+  </action>
+  <action name="actionHomepage">
+   <property name="text">
+    <string>Homepage</string>
+   </property>
+  </action>
+  <action name="actionTechnical_support">
+   <property name="text">
+    <string>Technical support</string>
+   </property>
+  </action>
+  <action name="actionFeedback">
+   <property name="text">
+    <string>Feedback</string>
+   </property>
+  </action>
+  <action name="actionCheck_for_update">
+   <property name="text">
+    <string>Check for update...</string>
+   </property>
+  </action>
+  <action name="actionGet_lisense">
+   <property name="text">
+    <string>Get lisense key</string>
+   </property>
+  </action>
+  <action name="actionEnter_lisense_key">
+   <property name="text">
+    <string>Enter lisense key</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About...</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
