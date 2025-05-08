@@ -1,4 +1,4 @@
-📌 Đề tài:
+﻿📌 Đề tài:
 Phát triển phần mềm lựa chọn và kết nối tự động đến điểm truy cập Wi-Fi mạnh nhất trên hệ điều hành Linux
 
 
@@ -16,12 +16,10 @@ Giao diện dòng lệnh hoặc giao diện đồ họa (GUI) dễ sử dụng.
 Phần mềm được thiết kế để hỗ trợ người dùng trong môi trường có nhiều mạng Wi-Fi trùng tên (SSID) hoặc nhiều AP cùng hệ thống (mesh network), nhằm tối ưu kết nối internet và hạn chế ngắt kết nối do roaming không hiệu quả.
 
 🔧 Công nghệ sử dụng:
-Python 3
 Pyside 6 : UI
 
 Thư viện pywifi hoặc nmcli (Linux)
-
-Tkinter hoặc Qt (nếu dùng giao diện đồ họa)
+PYSIDE6 (Thiết kế giao diện đồ họa)
 
 Hệ điều hành: Ubuntu/Debian-based Linux
 
